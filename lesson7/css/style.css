@@ -1,0 +1,21 @@
+ @charset-"UTF-8";
+	/* CSS Document */
+	.part1{
+	width:100%;
+	height:600px;
+	background:#77b667;
+}
+    .part2{
+	width:800px;
+	height:650px;
+	background: url('./img/kitten.png') center no-repeat;
+	background-attachment: fixed;
+}
+    .part3{
+	width:700px;
+	height:600px;
+	background: url('./img/beach.jpg'), url('./img/domrep.png'), url('./img/leaf.jpg');
+	background-repeat: no-repeat;
+	background-position:left, center, right;
+	background-size:25%, 40%, 25%;
+}
