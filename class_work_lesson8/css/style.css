@@ -1,0 +1,23 @@
+ @charset-"UTF-8";
+	/* CSS Document */
+		html{
+		background:#df9274;
+	}
+	
+.box{
+	position:relative;
+	height:600px;
+	width:650px;
+	background:#33d9b8;
+	margin:0 auto;
+} 
+	h1{
+		text-align:center;
+		font-size:35px;
+		color:#adac3c;
+		padding-bottom:30px;
+		padding-top:30px;
+	}
+	img{position:absolute;
+		height:100%;
+		width:100%;}
