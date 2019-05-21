@@ -1,0 +1,49 @@
+ @charset-"UTF-8";
+	/* CSS Document */
+	header{
+		width:100%;
+		background:#e5e9b3 url(images/logo_live_and_travel.png) no-repeat;
+		background-size:15%;
+		height:70px;
+	}
+.title{
+	font-size:28px;
+	padding-top:10px;
+	text-align:center;
+}
+	.tel{
+		font-size:22px;
+	    padding-top:3px;
+		text-align:right;
+	}
+.menu ul li{
+	display:inline-block;
+	padding:15px;
+
+}	
+.menu ul  ul> li:hover{
+	background:#99c2ca;
+}
+.menu ul{
+	position:relative;
+	margin:0;
+	padding:0;
+	background:#372f81;
+}
+.menu ul ul{
+	display: none;
+	position:absolute;
+	background:#372f81;
+	margin-top:15px;
+	margin-left:-15px;
+}
+.menu ul ul a{
+	color:#99c2ca;
+	text-decoration:none;
+}
+.menu li:hover ul{
+	display:block;
+}
+.menu li:hover li{
+	display:block;
+}
