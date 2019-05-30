@@ -1,0 +1,9 @@
+ @charset-"UTF-8";
+	/* CSS Document */
+	div.clip{
+		white-space:nowrap;
+		overflow:hidden;
+		padding:5px;
+		text-overflow:ellipsis;
+		width:300px;
+		}

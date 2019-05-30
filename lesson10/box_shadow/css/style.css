@@ -1,0 +1,53 @@
+ @charset-"UTF-8";
+	/* CSS Document */
+	.button
+{
+    background:#e31c7e;
+	padding:15px 35px;
+	text-align:center;
+	box-shadow:0 2px 5px 0 #ae7da2, 0 2px 10px #ae7da2;
+	width:200px;
+	margin:0 auto;
+	-webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+	border-radius:5px;
+	cursor:pointer;
+}
+.button:hover{
+	background:#18f064;
+	box-shadow:0 2px 5px 0 #e7b01c, 0 2px 10px #e7b01c;
+}
+.inside{
+    
+	background:#0ce4cd;
+	box-shadow:inset 2px 2px 5px #dfd2e4;
+	width:320px;
+	height:150px;
+	margin:0 auto;
+	-webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    -o-border-radius:12px;
+	border-radius:12px;
+	cursor:pointer;
+
+}
+.outside{
+    background:#cfdcb3;
+	box-shadow:0 0 10px #dfd2e4;
+	width:320px;
+	height:150px;
+	margin:0 auto;
+	-webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    -o-border-radius:12px;
+	border-radius:12px;
+	cursor:pointer;
+
+}
+.task1{
+	padding:10px 10px 10px 10px;}
+.task2{
+	padding:10px 10px 10px 10px;}
+.task3{
+    padding:10px 10px 10px 10px;}

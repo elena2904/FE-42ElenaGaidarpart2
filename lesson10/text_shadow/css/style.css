@@ -1,0 +1,21 @@
+ @charset-"UTF-8";
+	/* CSS Document */
+	.word{
+	text-shadow: 3px 5px 6px #6c9, 7px 9px 8px #d67f7f;
+	font-size:60px;
+	text-align:center;
+	color:#53bbab;
+	padding-bottom:30px;
+}
+.shadow{
+	text-shadow:4px 5px 0px #9eb216, 3px 5px 7px #ca5d7f, 4px 6px 8px #ca935d;
+	font-size:52px;
+	text-align:center;
+	color:#344f81;
+}
+.several{
+	text-shadow:3px 5px 6px #8f4f4f,-6px -7px 6px #9e7d7d, 1px 1px #2a1f84, 1px -1px #2a1f84, -1px 1px #2a1f84, -1px -1px #2a1f84, 0 0 0.6em #3ff028;
+	font-size:70px;
+	text-align:center;
+	color:#c93353;
+}
